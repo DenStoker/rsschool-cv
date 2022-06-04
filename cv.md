@@ -22,7 +22,7 @@
     function multiply(a, b) {
     return (a * b);
     }
-    let reuslt = multiply(10, 300);
+    let result = multiply(10, 300);
     alert (result);
 ```
 -------------------------------------------------------------------------------
