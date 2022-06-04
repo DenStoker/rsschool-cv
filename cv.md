@@ -18,13 +18,13 @@
    * JavaScript (basic);
 ------------------------------------------------------------------------
  ## Code Example:
-    ```
+```javascript
     function multiply(a, b) {
     return (a * b);
     }
     let reuslt = multiply(10, 300);
     alert (result);
-    ```
+```
 -------------------------------------------------------------------------------
  ## Experience:
 
