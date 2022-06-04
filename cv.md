@@ -14,4 +14,20 @@
     3. I am always energetic and eager to learn new skills.
     4. I have experiance working as part of a team and individually.
 -----------------------------------------------------------------------
-     
+ ## Skills: 
+    * HTML
+    * CSS
+    * JavaScript (basic)
+------------------------------------------------------------------------
+ ## Code Example:
+    ```
+    function multiply(a, b) {
+    return (a * b);
+    }
+    let reuslt = multiply(10, 300);
+    alert (result);
+    ```
+-------------------------------------------------------------------------------
+ 
+
+
