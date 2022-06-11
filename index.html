@@ -19,16 +19,16 @@
         <nav class="nav">
           <ul class="nav-list">
             <li class="nav-item">
-              <a href="#Some contacts" class="nav-link">Some contacts</a>
+              <a href="#Contacts" class="nav-link">Contacts</a>
             </li>
             <li class="nav-item">
-              <a href="#About me" class="nav-link">About me</a>
+              <a href="#Summary" class="nav-link">Summary</a>
             </li>
             <li class="nav-item">
               <a href="#Skills" class="nav-link">Skills</a>
             </li>
             <li class="nav-item">
-              <a href="#Code example" class="nav-link">Code example</a>
+              <a href="#Code" class="nav-link">Code</a>
             </li>
             <li class="nav-item">
               <a href="#Experience" class="nav-link">Experience</a>
@@ -45,89 +45,105 @@
     </header>
     <main class="main">
       <div class="container">
-        <section class="section" id="profile">
-          <h1 class="section-title">Ivanov Denis</h1>
-          <p>Junior Frontend-Developer</p>
-          <img
-            src="assets/img/IMG_2494.jpg"
-            width="150"
-            height="200"
-            alt="my photo"
-          />
+        <section class="section-cv">
+          <div class="cv-photo">
+            <img
+              class="img-item"
+              src="assets/img/IMG_2494.jpg"
+              alt="my photo"
+            />
+          </div>
+          <h1 class="section-title-cv">
+            Ivanov Denis<br />
+            Junior Front-end developer
+          </h1>
         </section>
-        <section class="section" id="Some contacts">
-          <h3 class="section-title">Some contacts</h3>
-          <ul>
-            <li>Location : Minsk, Belarus</li>
-            <li>Phone: +375 29 274-55-15</li>
-            <li>
-              E-mail: <a href="https://stkr161@gmail.com">stkr161@gmail.com</a>
-            </li>
-            <li>
-              GitHub: <a href="https://github.com/DenStoker">DenStoker</a>
-            </li>
-          </ul>
-        </section>
-        <section class="section" id="About me">
-          <h3 class="section-title">About me</h3>
-          <ol>
-            <li>I am able to handle multiple tasks on a daily basis.</li>
-            <li>I use a creative approach to problem solve.</li>
-            <li>I am always energetic and eager to learn new skills.</li>
-            <li>
-              I have experiance working as part of a team and individually.
-            </li>
-          </ol>
-        </section>
-        <section class="section" id="Skills">
-          <h3 class="section-title">Skills</h3>
-          <ul>
-            <li>HTML;</li>
-            <li>CSS;</li>
-            <li>JavaScript (basic);</li>
-          </ul>
-        </section>
-        <section class="section" id="Code">
-          <h3 class="section-title">Code example</h3>
-          <pre>
-                <code>
-                    function multiply(a, b) {
-                    return (a * b);
-                      }
-                    let result = multiply(10, 300);
-                    alert (result);
-                </code>
-            </pre>
-        </section>
-        <section class="section" id="Experience">
-          <h3 class="section-title">Experience</h3>
-          <p>None</p>
-        </section>
-        <section class="section" id="Education">
-          <h3 class="section-title">Education</h3>
-          <ul>
-            <li>
-              Belarusian National Technical University, Civil Engineering;
-            </li>
-            <li>Courses:</li>
-            <ol>
+        <div class="info-1">
+          <section class="section" id="Contacts">
+            <h2 class="section-title">Some contacts</h2>
+            <ul>
+              <li>Location : Minsk, Belarus</li>
+              <li>Phone: +375 29 274-55-15</li>
               <li>
-                <a
-                  href="https://ru.hexlet.io/courses/introduction_to_programming"
-                  >"Introduction to programming"</a
-                >
+                E-mail:
+                <a href="https://stkr161@gmail.com">stkr161@gmail.com</a>
               </li>
-              <li><a href="https://www.youtube.com/c/cs50">"CS50"</a></li>
-            </ol>
-          </ul>
-        </section>
-        <section class="section" id="English">
-          <h3 class="section-title">Language skills</h3>
-          <ul>
-            <li>Russian, Belasrusian - native speaker;</li>
-            <li>English - B1-B2;</li>
-          </ul>
-        </section>
+              <li>
+                GitHub: <a href="https://github.com/DenStoker">DenStoker</a>
+              </li>
+            </ul>
+          </section>
+          <section class="section" id="Summary">
+            <h2 class="section-title">About me</h2>
+            <ul>
+              <li>I am able to handle multiple tasks on a daily basis.</li>
+              <li>I use a creative approach to problem solve.</li>
+              <li>I am always energetic and eager to learn new skills.</li>
+              <li>
+                I have experiance working as part of a team and individually.
+              </li>
+            </ul>
+          </section>
+        </div>
+        <div class="info-2">
+          <section class="section" id="Skills">
+            <h2 class="section-title">Skills</h2>
+            <ul>
+              <li>HTML;</li>
+              <li>CSS;</li>
+              <li>JavaScript (basic);</li>
+            </ul>
+          </section>
+          <section class="section" id="Code">
+            <h2 class="section-title">Code example</h2>
+            <p>
+              <code class="code">
+                function multiply(a, b) {<br />
+                return (a * b);<br />
+                }<br />
+                let result = multiply(10, 300);<br />
+                alert (result);<br />
+              </code>
+            </p>
+          </section>
+        </div>
+        <div class="info-3">
+          <section class="section" id="Experience">
+            <h2 class="section-title">Experience</h2>
+            <ul>
+              <li>None</li>
+            </ul>
+          </section>
+          <section class="section" id="Education">
+            <h2 class="section-title">Education</h2>
+            <ul>
+              <li>
+                Belarusian National Technical University, Civil Engineering;
+              </li>
+              <li>
+                Courses:
+                <ul>
+                  <li>
+                    <a
+                      href="https://ru.hexlet.io/courses/introduction_to_programming"
+                      >"Introduction to programming"</a
+                    >
+                  </li>
+                  <li><a href="https://www.youtube.com/c/cs50">"CS50"</a></li>
+                </ul>
+              </li>
+            </ul>
+          </section>
+        </div>
+        <div class="info-4">
+          <section class="section" id="English">
+            <h2 class="section-title">Language skills</h2>
+            <ul>
+              <li>Russian, Belarusian - native speaker;</li>
+              <li>English - B1-B2;</li>
+            </ul>
+          </section>
+        </div>
       </div>
     </main>
     <footer class="footer">
